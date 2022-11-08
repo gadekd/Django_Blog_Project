@@ -2,6 +2,10 @@
 
 {% block body_block %}
 
+    <a class="" href="{% url 'post_list' %}">
+        <span class="glyphicon glyphicon-arrow-left"></span> Back to Posts
+    </a>
+
     <h1 class="post-title">{{ post.title }}</h1>
 
     {% if post.published_date %}
@@ -52,7 +56,7 @@
             {% endif %}
 
                 {% empty %}
-                <p>No comments yet.</p>
+                <p class="no-comments">No comments yet.</p>
 
         {% endfor %}
     </div>

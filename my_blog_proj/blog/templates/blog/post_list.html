@@ -4,7 +4,7 @@
 
     <div class="centerstage">
         {% for post in post_list %}
-            <h1>
+            <h1 class="post-title-list">
                 <a href={% url 'post_detail' pk=post.pk %}>{{ post.title }}</a>
             </h1>
 

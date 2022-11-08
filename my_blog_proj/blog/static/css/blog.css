@@ -5,7 +5,7 @@
 }
 
 .bigbrand {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .centerstage {
@@ -22,14 +22,21 @@
     text-align: center;
 }
 
+.post-title-list {
+  font-family: 'El Messiri', sans-serif; 
+}
+
 .post-content {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
 }
 
 .btn-comment {
-    position: absolute;
     right: 0px;
+}
+
+.no-comments {
+  margin-top: 10px;
 }
 
 /*COLOR CHANGER*/
